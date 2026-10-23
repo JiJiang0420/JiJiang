@@ -1,6 +1,6 @@
 # 游戏开发资源索引
 
-共 5 个通用分类、14 项学习资源，每项均有独立指南，包含学习顺序、练习任务、完成标准和注意事项。另设个人定制工具目录。当前均为“已收藏、待实践”，外链尚未逐个联网核验；工具版本、费用和具体素材许可应在使用时确认。
+共 6 个通用分类、20 项学习资源，每项均有独立指南，包含学习顺序、练习任务、完成标准和注意事项。另设个人定制工具目录。当前均为“已收藏、待实践”，外链尚未逐个联网核验；工具版本、费用和具体素材许可应在使用时确认。
 
 ## 怎么开始
 
@@ -11,6 +11,17 @@
 ## 定制工具
 
 个人项目工具集中整理在[定制工具目录](../custom-tools/README.md)，已为哼鸣识别作曲工具、Logo 设计工具建档，待补充实际项目入口。
+
+## 策划与设计
+
+[查看策划与设计目录](planning-design.md)：玩法框架、关卡、叙事、数值、可访问性与开发案例。
+
+- [MDA 游戏设计框架 学习指南](guides/mda.md) · [原始入口](https://users.cs.northwestern.edu/~hunicke/MDA.pdf)：从机制、动态与体验三个层次分析游戏，帮助把体验目标转化为可验证的设计。
+- [The Level Design Book 学习指南](guides/level-design.md) · [原始入口](https://book.leveldesignbook.com/)：关卡设计开放教材，覆盖空间、流程、白盒原型与迭代。
+- [Twine 互动叙事 学习指南](guides/twine.md) · [原始入口](https://twinery.org/)：通过节点和链接制作互动故事，练习分支、条件与叙事反馈。
+- [Machinations 系统与数值设计 学习指南](guides/machinations.md) · [原始入口](https://machinations.io/)：用资源流与系统图分析游戏经济，探索产出、消耗、反馈和增长。
+- [Game Accessibility Guidelines 学习指南](guides/accessibility.md) · [原始入口](https://gameaccessibilityguidelines.com/)：按基础、中级与高级整理游戏可访问性建议，覆盖输入、视觉、听觉与认知需求。
+- [GDC Vault 策划案例 学习指南](guides/gdc-design.md) · [原始入口](https://www.gdcvault.com/)：查找开发者关于玩法、战斗、叙事和关卡设计的演讲与复盘。
 
 ## 引擎与编程
 
