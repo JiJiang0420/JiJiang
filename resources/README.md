@@ -1,6 +1,13 @@
 # 游戏开发资源索引
 
-共 6 个通用分类、20 项学习资源，每项均有独立指南，包含学习顺序、练习任务、完成标准和注意事项。另设个人定制工具目录。当前均为“已收藏、待实践”，外链尚未逐个联网核验；工具版本、费用和具体素材许可应在使用时确认。
+共 6 个主题分类、32 项资源，每项均有独立指南，包含学习顺序、练习任务、完成标准和注意事项。另设个人定制工具目录。原有条目待实践、未逐项联网核验；新增 12 项已核验项目原文可读取，未运行验证；工具版本、费用和具体素材许可应在使用时确认。
+
+## 按资源类型浏览
+
+- [学习资料](learning-materials.md)：教程、文档、案例和示例项目。
+- [工具](tools.md)：编辑器、引擎与开发库。
+- [素材资源](assets.md)：素材与声音来源，单独列出以免混入学习资料。
+- [检索与核验记录](research-log.md)：来源、日期、HTTP 状态及核验范围。
 
 ## 怎么开始
 
@@ -55,3 +62,18 @@
 ## 继续收录
 
 使用[资源收录模板](../templates/resource-entry.md)，优先记录用途、适用版本、许可和实际使用经验。完成练习后补充到[学习笔记](../notes/README.md)。
+
+## 本次新增
+
+- [LDtk 2D 关卡编辑器](guides/ldtk.md)（工具）。
+- [Tiled 地图编辑器](guides/tiled.md)（工具）。
+- [Pixelorama 像素美术工具](guides/pixelorama.md)（工具）。
+- [Godot Engine 编辑器](guides/godot-tool.md)（工具）。
+- [Audacity 音频编辑器](guides/audacity-tool.md)（工具）。
+- [Blender 3D 创作工具](guides/blender-tool.md)（工具）。
+- [DirectX Tool Kit for DirectX 11](guides/directxtk.md)（工具）。
+- [GDQuest：从零学习 GDScript](guides/gdscript.md)（学习资料）。
+- [Godot 官方示例项目](guides/godot-demos.md)（学习资料）。
+- [LearnOpenGL 教程与示例](guides/learnopengl.md)（学习资料）。
+- [MDN Web 游戏开发](guides/mdn-games.md)（学习资料）。
+- [Writing with ink 互动叙事指南](guides/ink-writing.md)（学习资料）。

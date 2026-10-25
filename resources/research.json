@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ldtk",
+    "title": "LDtk 2D 关卡编辑器",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/deepnight/ldtk/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "71d4480dbab809d5686ab87222ba483c0cd651bbf219ad1a16bb94ea90f66325"
+  },
+  {
+    "id": "tiled",
+    "title": "Tiled 地图编辑器",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/mapeditor/tiled/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "efa9fdd799e196d6c5239f7a8283d58cffa539dc12ee7a9929003eb100ec09f8"
+  },
+  {
+    "id": "pixelorama",
+    "title": "Pixelorama 像素美术工具",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/Orama-Interactive/Pixelorama/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "9826a3a9d17f6c12fd3b885ba11271a34dafa98a43bd1e281475f640dcb733d5"
+  },
+  {
+    "id": "godot-tool",
+    "title": "Godot Engine 编辑器",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/godotengine/godot/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "999955511e1d54b0abe323ad899633a5a22c14c4899d46e31d06de2175bd19f0"
+  },
+  {
+    "id": "audacity-tool",
+    "title": "Audacity 音频编辑器",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "c84ab5991133706a2899c20539df624ecaa124b7be9d4aff6d2b20986978d121"
+  },
+  {
+    "id": "blender-tool",
+    "title": "Blender 3D 创作工具",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "1bbb333e5196ba3d5cdc42830e5f1db6b77c311da96d4ff4d9a6f8143d9821e1"
+  },
+  {
+    "id": "directxtk",
+    "title": "DirectX Tool Kit for DirectX 11",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/microsoft/DirectXTK/main/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "69ddeaddb665a31edd031c9c2c5c7e47a300858ffe4c2097c51b3b3f0b8f2255"
+  },
+  {
+    "id": "gdscript",
+    "title": "GDQuest：从零学习 GDScript",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/GDQuest/learn-gdscript/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "ee7878e7f7419cc6173c7d4ea1d68f0445ffa800f843214e4986836517c93e52"
+  },
+  {
+    "id": "godot-demos",
+    "title": "Godot 官方示例项目",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/godotengine/godot-demo-projects/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "4c121fc88a1412b8e381263146ac67937c485386e79641569117a6516dd64ba3"
+  },
+  {
+    "id": "learnopengl",
+    "title": "LearnOpenGL 教程与示例",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/JoeyDeVries/LearnOpenGL/master/README.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "1b49affd5e94de6f3a28e7bb9b68ea3485e500c830657da44f9547c761ba1df3"
+  },
+  {
+    "id": "mdn-games",
+    "title": "MDN Web 游戏开发",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/mdn/content/main/files/en-us/games/index.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "4892b5464505743d7efa14653edc2b36dfa5870c582822623ea1eda01d79c396"
+  },
+  {
+    "id": "ink-writing",
+    "title": "Writing with ink 互动叙事指南",
+    "date": "2026-10-23",
+    "url": "https://raw.githubusercontent.com/inkle/ink/master/Documentation/WritingWithInk.md",
+    "status": "README 或文档原文 HTTP 200；未安装运行",
+    "sha256": "0555b6ac648055967fd2c1b636d32e47180d6c4e69f2cb09144ecf5278fb5ecb"
+  }
+]

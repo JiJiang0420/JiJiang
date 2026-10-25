@@ -8,7 +8,10 @@
 | --- | --- |
 | [定制工具](custom-tools/README.md) | 哼鸣识别作曲、Logo 设计等个人工具，项目入口待补充 |
 | [策划与设计](resources/planning-design.md) | 玩法、关卡、叙事、数值与可用性，6 项配套指南 |
-| [资源索引](resources/README.md) | 引擎、编程、美术、音频与发布工具，共 20 项资源及配套学习指南 |
+| [学习资料](resources/learning-materials.md) | 教程、文档与示例 |
+| [工具目录](resources/tools.md) | 编辑器、引擎与开发库 |
+| [素材资源](resources/assets.md) | 素材和声音来源 |
+| [资源索引](resources/README.md) | 引擎、编程、美术、音频与发布工具，共 32 项资源及配套学习指南 |
 | [学习路线](docs/learning-roadmap.md) | 从选择引擎到完成一个可玩的原型 |
 | [学习笔记](notes/README.md) | 按主题归档的实践记录与问题排查 |
 | [Unity：命名空间与组件](notes/unity/namespace-and-components.md) | 从现有代码片段出发的第一篇学习资料 |
