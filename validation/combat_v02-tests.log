@@ -1,0 +1,89 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+COMBAT_V02_START isolated_user_dir=/tmp/wf2-smoke.7xjszkqc/data/WitchesFeast2/
+PASS v0.2 prediction, secondary action and training APIs exist
+PASS red preview includes its damage width and excludes a nearby miss
+PASS preview query does not damage, start cooldown or schedule attacks
+PASS predicted red stroke is accepted by actual casting
+PASS red prediction exactly matches damaged enemies without duplicate backtrack hits
+PASS blue prediction identifies endpoints rather than enemies along the line
+PASS predicted blue link is accepted
+PASS blue preview and establishment pulse damage the same endpoints
+PASS base gold preview identifies the current contact batch
+PASS predicted gold boundary is accepted
+PASS gold prediction matches the next real physics contact batch
+PASS out-of-range preview explains its invalidity
+PASS invalid cast agrees with preview and preserves the existing boundary and cooldown
+PASS blue ground-to-ground preview and cast both reject missing enemy endpoints
+PASS blue range check uses actual enemy position even when drawn points are in range
+PASS short-cut branch casts a valid short stroke
+PASS short cut delivers its own health and armor damage to real targets
+PASS short cut uses its branch cooldown and overrides equipped echo
+PASS equipped echo cannot add a delayed strike to short cut
+PASS short-cut preview and casting reject a stroke beyond the four-metre branch limit
+PASS the same longer stroke remains available to the base red route
+PASS short rebate does not reward a nonlethal hit
+PASS an actual short-cut kill refunds cooldown on that cast
+PASS multiple kills cannot refund below the short-cut cooldown floor
+PASS snap branch overrides flow and allows an enemy-to-ground link
+PASS snap establishment deals only its initial pulse and starts its own cooldown
+PASS snap rejects early right-click without queuing an automatic attack
+PASS pause freezes snap preparation and its cooldown
+PASS paused time cannot prepare a snap
+PASS snap remains a telegraph before the quarter-second delay
+PASS ready snap waits for a new secondary input
+PASS prepared link accepts the player secondary input
+PASS accepted snap resolves one pulse and consumes the link
+PASS repeated secondary input cannot duplicate a snap pulse
+PASS snap gather physically pulls a nearby bystander without applying extra damage
+PASS moving-wall placement previews no immediate damage and creates a pending boundary
+PASS stationary moving wall neither damages contacts nor redirects projectiles
+PASS moving wall uses its own placement cooldown
+PASS activated wall damages and redirects its first actual contact batch
+PASS moving wall consumes its first batch even with the old linger relic equipped
+PASS a consumed moving wall cannot be activated again
+PASS pause freezes an advancing wall and its cooldown
+PASS unpaused wall advances through the actual simulation at six metres per second
+PASS extra secondary presses do not restart the wall travel budget
+PASS extended travel still ends on its first batch and cannot damage a later target
+PASS wall-travel upgrade reaches a real target beyond the base travel range
+PASS training test creates a real isolated permanent save
+PASS training starts without any new attack branch
+PASS training toggle enables the current cloak branch: short_cut
+PASS training branch activation preserves the current cooldown
+PASS training branch is mutually exclusive with its old permanent relic: short_cut
+PASS training toggle leaves other cloak routes unchanged
+PASS training toggle leaves other cloak routes unchanged
+PASS second training toggle restores the current base route
+PASS training branch removal cannot bypass a spell cooldown
+PASS training toggle enables the current cloak branch: snap_link
+PASS training branch activation preserves the current cooldown
+PASS training branch is mutually exclusive with its old permanent relic: snap_link
+PASS training toggle leaves other cloak routes unchanged
+PASS training toggle leaves other cloak routes unchanged
+PASS second training toggle restores the current base route
+PASS training branch removal cannot bypass a spell cooldown
+PASS leaving the training snap branch clears its live link
+PASS training toggle enables the current cloak branch: moving_wall
+PASS training branch activation preserves the current cooldown
+PASS training branch is mutually exclusive with its old permanent relic: moving_wall
+PASS training toggle leaves other cloak routes unchanged
+PASS training toggle leaves other cloak routes unchanged
+PASS second training toggle restores the current base route
+PASS training branch removal cannot bypass a spell cooldown
+PASS leaving the training moving-wall branch clears its pending boundary
+PASS training route changes leave in-memory and on-disk permanent progress untouched
+PASS re-entering training resets branch practice without changing permanent equipment
+PASS first shop exposes all three attack branches: short_cut
+PASS first-shop branch is actually purchasable: short_cut
+PASS duplicate branch purchase cannot charge twice: short_cut
+PASS purchased branch remains equipped after the shop: short_cut
+PASS first shop exposes all three attack branches: snap_link
+PASS first-shop branch is actually purchasable: snap_link
+PASS duplicate branch purchase cannot charge twice: snap_link
+PASS purchased branch remains equipped after the shop: snap_link
+PASS first shop exposes all three attack branches: moving_wall
+PASS first-shop branch is actually purchasable: moving_wall
+PASS duplicate branch purchase cannot charge twice: moving_wall
+PASS purchased branch remains equipped after the shop: moving_wall
+COMBAT_V02_RESULT passed=85 failed=0

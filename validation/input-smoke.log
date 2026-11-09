@@ -1,0 +1,66 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+INPUT_SMOKE_START display=X11 data=/tmp/wf2-smoke-input-v02-final.1g_lb6g7/data
+PASS actual game window opens in base
+PASS base help button opens the actual guide overlay
+PASS guide close button restores base
+PASS training button enters playable scene
+PASS physical key moves player: W
+PASS physical key moves player: S
+PASS physical key moves player: A
+PASS physical key moves player: D
+PASS number key changes active cloak: 2
+PASS number key changes active cloak: 3
+PASS number key changes active cloak: 1
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=0 hp=12.0 cooldowns=[1.2, 0.0, 0.0]
+PASS projected mouse drag casts red through the real input path
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=1 hp=16.0 cooldowns=[0.4, 1.6, 0.0]
+PASS projected mouse drag casts an enemy-to-ground blue link
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=2 hp=36.0 cooldowns=[0.0, 0.8, 1.8]
+PASS projected mouse drag places a damaging gold boundary
+PASS Q activates short cut through the real input path
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=0 hp=18.0 cooldowns=[0.65, 0.0, 0.6]
+PASS short-cut input uses its branch damage
+PASS Q returns the current cloak to its original mode
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=1 hp=22.0 cooldowns=[0.0, 2.0, 0.0]
+PASS snap branch input establishes the weaker first pulse
+PASS right-click finishes a prepared snap and defeats a lone enemy
+PASS left press begins a real drawing gesture
+PASS short mouse gesture samples its final world endpoint before rendering
+INPUT_GESTURE cloak=2 hp=36.0 cooldowns=[0.0, 0.26666666666667, 2.2]
+PASS moving-wall input places an inactive boundary
+PASS pending wall HUD separates ready right-click from left-click cooldown
+PASS placed wall keeps its travel guide after the initial cast effect expires
+PASS pending wall guide survives switching away from gold
+PASS right-click launches the wall and resolves one contact batch
+PASS consumed wall removes its pending travel guide
+PASS live preview shows a valid drawn action for cloak 1
+PASS right-click cancels the drawn preview without firing
+PASS live preview shows a valid drawn action for cloak 2
+PASS right-click cancels the drawn preview without firing
+PASS live preview shows a valid drawn action for cloak 3
+PASS right-click cancels the drawn preview without firing
+PASS Escape opens pause through input
+PASS actual pause freezes simulation and cooldown
+PASS physical movement keys do not move player while paused
+PASS resume button restores the running scene
+PASS simulation advances after button-based resume
+PASS middle mouse drag rotates the actual camera controller
+PASS Home returns camera yaw to default
+PASS graphical viewport produces a full-size rendered frame
+INPUT_SMOKE_CAPTURE /tmp/wf2-smoke-input-v02-final.1g_lb6g7/data/input-smoke.png
+PASS pause exit button returns to base
+INPUT_SMOKE_RESULT passed=52 failed=0

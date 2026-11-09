@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "window_close": "WM_DELETE_WINDOW",
+  "binary_sha256": "31d52e896e6a5f0e5dafca90ebc0886f3fa14982f2e9b5387c3cd0c782e58767",
+  "capture": "/workspace/witches-feast-builds-v0.2/combat.png",
+  "audio_driver": "Dummy",
+  "limitation": "X11 software rendering and autoplay fixture; not manual play or audible audio validation."
+}

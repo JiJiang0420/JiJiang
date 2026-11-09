@@ -1,12 +1,9 @@
-魔女的盛宴 2.0 · 三神遗宴 / 垂直切片 v0.1
+魔女的盛宴 2.0 · 垂直切片 v0.2
 
-Windows：解压 WitchesFeast2-v0.1-windows.zip 后运行 exe。
-Linux：解压 linux 包并运行 WitchesFeast2.x86_64。
-Web：解压 web 包，用 python3 -m http.server 8000 启动后浏览 localhost:8000。
-源码：source 包，Godot 4.6.3 导入 game/project.godot。
+Windows：下载 windows.zip，解压后进入 windows 文件夹，双击 WitchesFeast2.exe。
+先进入试炼场；1/2/3 切换斗篷，Q 试用当前斗篷的新分支。
+左键绘制、松手施法；绘制中右键取消；松手后右键执行收线或推墙。
+熟悉后进入三分钟快速试玩；正式局第一店可购买分支。
 
-建议先进入试炼场，再体验3分钟快速局。WASD移动、左键拖绘、123切换、空格闪避、中键转镜头、Esc暂停、H指南。
-
-验证：51项机制、29项窗口输入通过。Linux独立包渲染和原生退出通过；Chromium本地启动/3D场景/切换/暂停通过。Windows仅交叉导出，尚未实机验证。图形测试使用软件渲染，不代表目标显卡性能。
-
-当前采用简化模型与程序动画；完整设置、正式骨骼/布料和后续内容尚未完成。所有包保留引擎与字体许可，SHA256SUMS.txt为压缩包校验表。
+详细变化、在线 GDD、攻击成长设计和验证记录见 README.md。
+Windows 实机与人工手感尚待验收；三个分支样件已实现，完整后续成长树仍为设计。

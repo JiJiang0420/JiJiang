@@ -1,0 +1,60 @@
+{
+  "artifact_sha256": {
+    "index.pck": "60d306edde2dc4afaa54733b6753f983573bec77368acd015eb611c2c8246ac0"
+  },
+  "started_utc": "2026-11-09T03:21:51Z",
+  "root": "/workspace/witches-feast-builds-v0.2/web",
+  "console": [
+    {
+      "type": "log",
+      "text": "Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org"
+    },
+    {
+      "type": "log",
+      "text": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL"
+    },
+    {
+      "type": "log",
+      "text": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support."
+    }
+  ],
+  "page_errors": [],
+  "request_failures": [],
+  "http_errors": [],
+  "external_requests_blocked": [],
+  "checks": {
+    "html_http_status": 200,
+    "title": "魔女的盛宴 2.0 · 三神遗宴 v0.2",
+    "canvas": {
+      "width": 1280,
+      "height": 800,
+      "rect": {
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "cross_origin_isolated": true,
+    "godot_started": true,
+    "input_sequence_sent": [
+      "click training at 1090,429",
+      "2",
+      "3",
+      "Escape",
+      "Escape"
+    ],
+    "engine_or_script_errors": [],
+    "browser_console_errors": [],
+    "visual_review_required": true,
+    "pck_unchanged_during_run": true
+  },
+  "screenshots": [
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-base.png",
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-training.png",
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-training-blue.png",
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-training-gold.png",
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-pause.png",
+    "/workspace/witches-feast-builds-v0.2/web-validation/web-resumed.png"
+  ],
+  "limitation": "Single Linux Chromium / software WebGL smoke check. Does not establish full browser, audio, performance, save, or full-run compatibility.",
+  "completed_utc": "2026-11-09T03:23:10Z"
+}

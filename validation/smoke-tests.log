@@ -1,0 +1,70 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+SMOKE_START isolated_user_dir=/tmp/wf2-smoke.q36h5o1k/data/WitchesFeast2/
+PASS main scene boots into base
+PASS red accepts a valid stroke
+PASS red repeated path hits a target only once
+PASS red applies crack and starts cooldown
+PASS red independently kills a normal enemy in two casts
+PASS blue supports one enemy and a ground anchor
+PASS blue creates link and applies one pulse
+PASS blue establishes sustained anchor pull without per-frame pulse damage
+PASS continuous blue pull moves a resting enemy at least half a metre in 0.4 seconds
+PASS blue independently kills a normal enemy and removes dead endpoint link
+PASS gold accepts an active placement on an enemy
+PASS gold first contact damages once and consumes base boundary
+PASS gold independently kills a normal enemy in two casts
+PASS switch succeeds while prior spell persists
+PASS switch preserves existing link and independent cooldown
+PASS blue rejects two ground endpoints
+PASS invalid blue cast preserves old structure without cooldown
+PASS out-of-range stroke has no cooldown
+PASS gold rejects a too-short boundary
+PASS invalid gold cast preserves old boundary without cooldown
+PASS extended boundary uses reduced damage and remains after first batch
+PASS extended boundary cannot repeatedly damage the same target
+PASS second new contact consumes extended boundary
+PASS boundary redirects hostile projectile and consumes its batch
+PASS already redirected projectile cannot trigger another boundary
+PASS pause freezes combat timer and spell cooldown
+PASS resume advances simulation normally
+PASS forced collision is detected when moving enemy has later spawn index
+PASS same collision pair cannot apply damage again immediately
+PASS stage completion grants 60 run currency and 10 saved essence
+PASS shop contains three purchasable upgrades
+PASS real shop purchase succeeds
+PASS shop purchase deducts price and equips upgrade
+PASS duplicate purchase cannot charge or stack
+PASS continue shop enters the next battle phase
+PASS leaving the shop preserves the remaining spell cooldown
+PASS next completed phase grants its reward once
+PASS third phase completes permanent stage rewards
+PASS last shop starts a battle with exactly one boss
+PASS victory grants exactly 60 total essence and one win
+PASS result clears run-only currency and upgrades
+PASS repeated terminal callback cannot duplicate rewards or statistics
+PASS earned essence buys a permanent relic
+PASS relic purchase deducts permanent cost once
+PASS duplicate permanent purchase is rejected
+PASS new store instance restores currency, equipment and run statistics
+PASS atomic store accepts valid progress
+PASS second commit establishes previous valid backup
+WARNING: 主存档不可读，已载入最近的有效备份；损坏文件会保留。
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] _report (res://scripts/progress_store.gd:218)
+         [1] load_data (res://scripts/progress_store.gd:42)
+         [2] _test_store_recovery (res://tests/smoke.gd:285)
+         [3] _run (res://tests/smoke.gd:59)
+PASS corrupt primary restores prior valid backup
+PASS corrupt save is preserved separately
+WARNING: 进度数据无效，本次保存已取消。
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] _report (res://scripts/progress_store.gd:218)
+         [1] _fail (res://scripts/progress_store.gd:222)
+         [2] save_data (res://scripts/progress_store.gd:58)
+         [3] _test_store_recovery (res://tests/smoke.gd:295)
+         [4] _run (res://tests/smoke.gd:59)
+PASS invalid permanent balance is rejected
+SMOKE_RESULT passed=51 failed=0
